@@ -1,1 +1,0 @@
-# norwaymap.github.io
