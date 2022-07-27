@@ -32,7 +32,7 @@ body{
 			padding: 10px;
 }
 .menu_bottom:active{
-      -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+      		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			-webkit-tap-highlight-color: transparent;
 			outline: none;
 			font-size: 21px;
