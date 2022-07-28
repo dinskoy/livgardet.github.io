@@ -24,7 +24,7 @@ body{
 			-webkit-tap-highlight-color: transparent;
 			font-size: 21px;
 			font-weight: bold;
-			background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(93, 0, 33, 1));
+			background: black;
 			color: white;
 			text-decoration: none;
 			text-align: center;
@@ -37,7 +37,7 @@ body{
 			outline: none;
 			font-size: 21px;
 			font-weight: bold;
-			background-color: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(93, 0, 33, 1));
+			background-color: black;
 			color: white;
 			text-decoration: none;
 			text-align: center;
@@ -86,32 +86,34 @@ body{
 			height: 250px;
 			width: 800px;
 			overflow: auto;
+			display: flex;
 }
 .blackA{
 			text-decoration: none;
 			margin-bottom: 30px;
 			color: white;
-			position: relative;
+			position: absolute;
 			display: inline-block;
 			text-align: center;
 			background: linear-gradient(0deg, gray, black);
-			padding: 10px;
+			padding: 7px;
 			border-style: solid;
 			border-width: 5px;
 			border-radius: 5px;
 			border-color: white;
 			box-shadow: 0px 0px 10px white;
-			left: 30px;
-			top: 20px;
+			margin-left: 30px;
+			margin-top: 150px;
 }
 .blackP{
-			padding-left: 150px;
+			margin-left: 30px;
+
+			width: 750;
 }
 .img{
-			position: absolute;
-			margin-top: 100px;
+			/*position: absolute;*/
+			margin-top: 30px;
 			margin-left: 30px;
-			margin-bottom: 20px;
 			border-style: solid;
 			border-width: 5px;
 			border-radius: 5px;
@@ -126,22 +128,20 @@ body{
 .school_bottom{
 			text-decoration: none;
 			text-align: center;
-			color: white;
+			color: black;
+			background-color: white;
 			padding: 10px;
-			/*
-			border-style: solid;
-			border-width: 5px;
-			border-radius: 5px;
-			border-color: white;
-			box-shadow: 0px 0px 10px white;*/
+			border-radius: 20px;
 }
 .school_bottom:active{
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			-webkit-tap-highlight-color: transparent;
 			text-decoration: none;
 			text-align: center;
-			color: white;
+			color: black;
+			background-color: white;
 			padding: 10px;
+			border-radius: 20px;
 }
 .school_bottom:hover{
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -151,27 +151,13 @@ body{
 			color: black;
 			background: white;
 			padding: 10px;
+			border-radius: 20px;
 }
 .vzlomschool{
-	
-			background: black;
-			width: 150px;
 			margin: 30px;
 			padding: 5px;
-			border-style: solid;
-			border-width: 5px;
-			border-radius: 2px;
-			border-color: white;
-			box-shadow: 0px 0px 10px white;
 }
 .vzlomschool:hover{
-			background: white;
-			width: 150px;
 			margin: 30px;
 			padding: 5px;
-			border-style: solid;
-			border-width: 5px;
-			border-radius: 2px;
-			border-color: white;
-			box-shadow: 0px 0px 10px white;
 }
