@@ -2,22 +2,30 @@ body{
 			background-color: black;
 			color: white;
 			font-family: Comic Sans MS;
+			margin-left: 25%;
 }
 menu{
 	position: fixed;
 	z-index: 1000;
+	width: 15%;
+	height: 80%;
+	background-color: black;
+	margin-left: -20%;
+	margin-top: 5%;
 }
 #burger{
 	height: 50px;
 	width: 50px;
 	position: fixed;
 	z-index: 9;
+	margin-left: -15%;
 }
 .menu_bottom{
 			font-size: 21px;
 			background: white;
 			padding: 10px;
 			margin: 26px;
+			margin-left: -10%;
 			color: black;
 			width: 170px;
 			text-align: center;
@@ -29,6 +37,7 @@ menu{
 			border-color: black;
 }
 .menu_bottom:hover{
+			margin-left: -26px;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			-webkit-tap-highlight-color: transparent;
 			font-size: 21px;
@@ -41,6 +50,7 @@ menu{
 			padding: 10px;
 }
 .menu_bottom:active{
+			margin-left: -26px;
       		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			-webkit-tap-highlight-color: transparent;
 			outline: none;
@@ -62,6 +72,7 @@ menu{
 			border-radius: 2px;
 			border-color: white;
 			box-shadow: 0px 0px 10px white;
+			 
 }
 .active_menu{
 			position: fixed;
@@ -72,6 +83,7 @@ menu{
 			height: 100%;
 			background: rgba(255, 255, 255, 0.7);
 			z-index: 10;
+			 
 }
 #footer{
 
@@ -81,6 +93,7 @@ menu{
 			color: black;
 			padding: 5px;
 			margin-top:30px;
+			 
 }
 .vzlom{
 
@@ -96,6 +109,7 @@ menu{
 			width: 800px;
 			overflow: auto;
 			display: flex;
+			 
 }
 .blackA{
 			text-decoration: none;
@@ -110,16 +124,18 @@ menu{
 			border-width: 5px;
 			border-radius: 5px;
 			border-color: white;
+			 
 			box-shadow: 0px 0px 10px white;
 			margin-left: 30px;
 			margin-top: 150px;
 }
 .blackP{
+			 
 			margin-left: 30px;
-
 			width: 750;
 }
 .img{
+			 
 			/*position: absolute;*/
 			margin-top: 30px;
 			margin-left: 30px;
@@ -130,11 +146,13 @@ menu{
 			box-shadow: 0px 0px 10px white;
 }
 #img{
+	 
     width: 70%;
     height: 70%;
     
 }
 .school_bottom{
+			 
 			text-decoration: none;
 			text-align: center;
 			color: black;
@@ -143,6 +161,7 @@ menu{
 			border-radius: 20px;
 }
 .school_bottom:active{
+			 
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			-webkit-tap-highlight-color: transparent;
 			text-decoration: none;
@@ -153,6 +172,7 @@ menu{
 			border-radius: 20px;
 }
 .school_bottom:hover{
+			 
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			-webkit-tap-highlight-color: transparent;
 			text-decoration: none;
@@ -163,10 +183,12 @@ menu{
 			border-radius: 20px;
 }
 .vzlomschool{
+			 
 			margin: 30px;
 			padding: 5px;
 }
 .vzlomschool:hover{
+
 			margin: 30px;
 			padding: 5px;
 }
