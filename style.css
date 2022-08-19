@@ -7,11 +7,27 @@ body{
 menu{
 	position: fixed;
 	z-index: 1000;
-	width: 15%;
-	height: 80%;
+	width: 17%;
+	height: 85%;
 	background-color: black;
+	margin-left: -21%;
+	margin-top: 4%;
+}
+#ad{
+
+	position: fixed;
+	z-index: 999;
+	width: 15%;
+	height: 600px;
 	margin-left: -20%;
 	margin-top: 5%;
+	padding-top: 3%;
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 2px;
+	border-color: white;
+	box-shadow: 0px 0px 10px white;
 }
 #burger{
 	height: 50px;
@@ -191,4 +207,25 @@ menu{
 
 			margin: 30px;
 			padding: 5px;
+}
+@media(max-width: 767px){
+	#burger{
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	z-index: 9;
+	margin-left: -5%;
+}
+#m0id{
+	margin-left: 100%;
+}
+menu{
+	position: fixed;
+	z-index: 1000;
+	width: 17%;
+	height: 85%;
+	background-color: black;
+	margin-left: ;
+	margin-top: 4%;
+}
 }
