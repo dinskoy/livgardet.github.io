@@ -1,93 +1,67 @@
 body{
-			background-color: black;
-			color: white;
-			font-family: Comic Sans MS;
-			margin-left: 25%;
+	background-color: black;
+	font-family: Palatino;
+	position: relative;
+	color: white;
+	overflow-x: hidden;
+}
+nav{
+	position: fixed;
+	z-index: 9;
+	height: 50px;
+	width: 100%;
+	top: 0%;
+	left: 0%;
+	background-color: rgba(255, 255, 255, 0.8);
 }
 menu{
 	position: fixed;
-	z-index: 1000;
-	width: 17%;
-	height: 85%;
-	background-color: black;
-	margin-left: -21%;
-	margin-top: 4%;
-}
-#ad{
-
-	position: fixed;
-	z-index: 999;
-	width: 15%;
-	height: 600px;
-	margin-left: -20%;
-	margin-top: 5%;
-	padding-top: 3%;
+	z-index: 9;
+	width: 100%;
+	background-color: white;
+	padding: 10px;
+	margin-top: 50px;
 	text-align: center;
-	border-style: solid;
-	border-width: 5px;
-	border-radius: 2px;
-	border-color: white;
-	box-shadow: 0px 0px 10px white;
 }
 #burger{
 	height: 50px;
 	width: 50px;
+	z-index: 11;
+	top: 3px;
+	left: 20px;
 	position: fixed;
-	z-index: 9;
-	margin-left: -15%;
 }
+
 .menu_bottom{
-			font-size: 21px;
-			background: white;
-			padding: 10px;
-			margin: 26px;
-			margin-left: -10%;
-			color: black;
-			width: 170px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			border-style: solid;
-			border-width: 2px;
-			border-radius: 10px;
-			border-color: black;
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+	display: block;
+	height: 30px;
 }
 .menu_bottom:hover{
-			margin-left: -26px;
-			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			-webkit-tap-highlight-color: transparent;
-			font-size: 21px;
-			font-weight: bold;
-			background: black;
-			color: white;
-			text-decoration: none;
-			text-align: center;
-			display: inline-block;
-			padding: 10px;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: transparent;
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+	background-color: black;
 }
 .menu_bottom:active{
-			margin-left: -26px;
       		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			-webkit-tap-highlight-color: transparent;
-			outline: none;
-			font-size: 21px;
-			font-weight: bold;
-			background-color: black;
-			color: white;
+			padding: 5px;
+			color: black;
 			text-decoration: none;
-			text-align: center;
-			display: inline-block;
-			padding: 10px;
+			display: block;
+			height: 30px;
 }
 .news{
-    		width: 1000px;
-			margin: 30px;
-			padding: 5px;
-			border-style: solid;
-			border-width: 5px;
-			border-radius: 2px;
-			border-color: white;
-			box-shadow: 0px 0px 10px white;
+			color: black;
+    		width: 90%;
+			margin: 4%;
+			padding: 10px;
+			background-color: rgba(255, 255, 255, 0.7);
 			 
 }
 .active_menu{
@@ -101,65 +75,60 @@ menu{
 			z-index: 10;
 			 
 }
+#favicon{
+			height: 40px;
+			width: 40px;
+			z-index: 11;
+			top: 5px;
+			left: 80px;
+			position: fixed;
+}
 #footer{
-
-    		width: 1000px;
-			font-size: 10px;
-			background-color: white;
+			margin: 4%;
+    		width: 90%;
+			font-size: 12px;
+			background-color: rgba(255, 255, 255, 0.8);
 			color: black;
-			padding: 5px;
+			padding: 10px;
 			margin-top:30px;
 			 
 }
+.fi{
+	height: 15%;
+	width: 15%;
+	margin-left: 20%;
+}
 .vzlom{
 
-			background: black;
+			background: rgba(255, 255, 255, 0.8);
 			margin: 50px;
 			padding: 5px;
-			border-style: solid;
-			border-width: 5px;
-			border-radius: 2px;
-			border-color: white;
-			box-shadow: 0px 0px 10px white;
 			height: 250px;
-			width: 800px;
+			width: 80%;
 			overflow: auto;
 			display: flex;
 			 
 }
 .blackA{
 			text-decoration: none;
+			color: black;
 			margin-bottom: 30px;
-			color: white;
-			position: absolute;
-			display: inline-block;
+			display: block;
 			text-align: center;
-			background: linear-gradient(0deg, gray, black);
+			background: rgba(255, 255, 255, 0.8);
 			padding: 7px;
-			border-style: solid;
-			border-width: 5px;
-			border-radius: 5px;
-			border-color: white;
-			 
-			box-shadow: 0px 0px 10px white;
-			margin-left: 30px;
-			margin-top: 150px;
+			margin-left: -80px;
+			margin-top: 175px;
 }
 .blackP{
 			 
 			margin-left: 30px;
 			width: 750;
+			color: black;
 }
 .img{
-			 
-			/*position: absolute;*/
 			margin-top: 30px;
 			margin-left: 30px;
-			border-style: solid;
-			border-width: 5px;
-			border-radius: 5px;
-			border-color: white;
-			box-shadow: 0px 0px 10px white;
 }
 #img{
 	 
@@ -174,7 +143,7 @@ menu{
 			color: black;
 			background-color: white;
 			padding: 10px;
-			border-radius: 20px;
+			border-radius: 50px;
 }
 .school_bottom:active{
 			 
@@ -185,7 +154,7 @@ menu{
 			color: black;
 			background-color: white;
 			padding: 10px;
-			border-radius: 20px;
+			border-radius: 50px;
 }
 .school_bottom:hover{
 			 
@@ -196,7 +165,7 @@ menu{
 			color: black;
 			background: white;
 			padding: 10px;
-			border-radius: 20px;
+			border-radius: 50px;
 }
 .vzlomschool{
 			 
@@ -213,19 +182,109 @@ menu{
 	height: 50px;
 	width: 50px;
 	position: fixed;
-	z-index: 9;
-	margin-left: -5%;
+	z-index: 11;
 }
 #m0id{
-	margin-left: 100%;
+	z-index: 12;
 }
-menu{
-	position: fixed;
-	z-index: 1000;
-	width: 17%;
-	height: 85%;
+}
+		#block-around{
+			position: relative;
+			margin-top: 50px;
+			height: 250px;
+		}
+		#beauty-round{
+			animation-name: iraround;
+			animation-iteration-count: infinite;
+			animation-duration: 20s;
+			position: absolute;
+			height: 250px;
+			width: 500px;
+			margin-left: 12.5%;
+		}
+		#round{
+			position: absolute;
+			height: 250px;
+			width: 500px;
+			display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+    		margin-left: 12.5%;
+		}
+		#beauty{
+			position: absolute;
+			animation-name: around;
+			animation-iteration-count: infinite;
+			animation-duration: 10s;
+			height: 250px;
+			width: 500px;
+			margin-left: 12.5%;
+		}
+		#sign{
+			position: absolute;
+			height: 250px;
+			width: 500px;
+			margin-left: 12.5%;
+		}
+		@keyframes around {
+			from{
+				transform: rotate(360deg);
+			}
+			to{
+				transform: rotate(0deg);
+			}
+		}
+		@keyframes iraround {
+			from{
+				transform: rotate(0deg);
+			}
+			to{
+				transform: rotate(360deg);
+			}
+		}
+		@keyframes minus{
+			0%{
+				width: 30px;
+			}
+			100%{
+				width: 0px;
+			}
+		}
+		@keyframes plus{
+			from{
+				width: 0px;
+			}
+			to{
+				width: 30px;
+			}
+		}
+#smbo{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 1px;
 	background-color: black;
-	margin-left: ;
-	margin-top: 4%;
+	height: 0px;
+	width: 30px;
+	margin: 7px;
 }
+#smbt{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 1px;
+	background-color: black;
+	height: 0px;
+	width: 30px;
+	margin: 7px;
+}
+#smbth{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 1px;
+	background-color: black;
+	height: 0px;
+	width: 30px;
+	margin: 7px;
 }
