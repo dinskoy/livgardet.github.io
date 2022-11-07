@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240px" height="240px">
+	<rect x="0" y="0" width="240" height="240" fill="url(#background)"/>
+
+	<defs>
+		<linearGradient id="background">
+			<stop offset="0%" stop-color="#e87b3a"/>
+			<stop offset="100%" stop-color="#e24f35"/>
+		</linearGradient>
+	</defs>
+	
+	<path d="
+		M 125 25
+		L 240 130
+		L 240 240
+		L 170 240" fill="#000000" fill-opacity="0.5"/>
+
+	<path d="
+		M 70 169
+		L 105 65 
+		L 135 65
+		L 169 170
+		Z" stroke="#e9d4b6" fill="#e9d4b6"/>
+
+	<rect x="70" y="170" width="30" height="130" fill="#eeb19c"/>
+	<path d="M 70 170 C 75 150, 85 120, 100 170" stroke="#eeb19c" fill="#eeb19c"/>
+
+	<rect x="100" y="170" width="40" height="130" fill="#b88a80"/>
+	<ellipse cx="120" cy="175" rx="20" ry="35" fill="#b88a80"/>
+
+	<path d="
+		M 105 65
+		L 115 30
+		L 125 30
+		L 135 65 Z" stroke-linecap="round" stroke="#404956" fill="#404956"/>
+	<circle cx="120" cy="30" r="5" fill="#374659"/>
+
+<!--shadow-->
+
+	<path d="
+		M 175 240
+		L 175 165
+		L 145 80
+		L 125 25
+		L 120 25
+		L 140 170
+		L 140 240 Z" fill="#000000" fill-opacity="0.5"/>
+		<!-- colors-->
+		<!--#e87b3a  #e34a37-->
+
+	<rect x="140" y="170" width="30" height="130" fill="#374659"/>
+	<path d="M 140 170 C 145 150, 155 120, 170 170" stroke="#374659" fill="#374659"/>
+</svg>

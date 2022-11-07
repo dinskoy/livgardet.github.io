@@ -5,12 +5,10 @@ meanhi = function (){
 	}else{
 		burger.classList.add('gg');
 		nav.innerHTML = `<menu>
-							<a class="menu_bottom" href="general.html">Главная</a>
+							<a class="menu_bottom" href="index.html">Главная</a>
 							<a class="menu_bottom" href="military.html">Склад</a>
-							<a class="menu_bottom" href="school.html">Школа</a>
 							<a class="menu_bottom" href="history.html">История</a>
 							<a class="menu_bottom" href="blackshop.html">Черный рынок</a>
-							<a class="menu_bottom" href="frame.html">Интеграции</a>
 						</menu>`;
 	};
 	const smbo = document.querySelector('#smbo');
@@ -29,12 +27,10 @@ function meanse(){
 	}else{
 		burger.classList.add('gg');
 		nav.innerHTML = `<menu>
-							<a class="menu_bottom" href="general.html">Главная</a>
+							<a class="menu_bottom" href="index.html">Главная</a>
 							<a class="menu_bottom" href="military.html">Склад</a>
-							<a class="menu_bottom" href="school.html">Школа</a>
 							<a class="menu_bottom" href="history.html">История</a>
 							<a class="menu_bottom" href="blackshop.html">Черный рынок</a>
-							<a class="menu_bottom" href="frame.html">Интеграции</a>
 						</menu>`;
 	};
 	const smbo = document.querySelector('#smbo');
@@ -68,3 +64,5 @@ function meanx(smb, deg){
 		burger.style.top = `3px`
 	}
 };
+
+//Animation of #banner_list

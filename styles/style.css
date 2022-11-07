@@ -1,9 +1,26 @@
+@font-face{
+	font-family: "Deutsch";
+	src: url("../fonts/Deutsch.ttf") format("truetype");
+}
+
+
+
+
 body{
 	background-color: black;
-	font-family: Palatino;
+	font-family: Montreal, Arial;
+	font-weight: 700;
 	position: relative;
 	color: white;
 	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+div{
+	margin: 0px;
 }
 nav{
 	position: fixed;
@@ -15,21 +32,54 @@ nav{
 	background-color: rgba(255, 255, 255, 0.8);
 }
 menu{
+	display: flex;
 	position: fixed;
 	z-index: 9;
 	width: 100%;
-	background-color: white;
-	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
 	margin-top: 50px;
+	padding: 30px;
 	text-align: center;
-	animation-duration: 5s;
 }
-#h1b{
-	margin-top: -200px;
-	width: 30%;
+
+.details{
+	background-color: dimgray;
+
+	padding: 5px;
+	margin: 10px;
+
+	color: lightgray;
 }
-#content{
+
+.summary{
+	background-color: dimgray;
+
+	padding: 5px;
+	margin: 10px;
+
+	color: lightgray;
+}
+
+#caption{
+	margin: 35px;
 	margin-top: 100px;
+
+	display: block;
+
+	height: 250px;
+
+	color: lightgray;
+
+	text-align: center;
+
+	font-family: Deutsch;
+	font-size: 200px;
+	font-weight: normal;
+}
+@media(max-width: 800px){
+	#caption{
+		font-size: 100px;
+	}
 }
 #burger{
 	height: 50px;
@@ -41,17 +91,18 @@ menu{
 }
 
 .menu_bottom{
-	padding: 5px;
+	padding: 10px;
 	color: black;
 	text-decoration: none;
 	display: block;
 	height: 30px;
+	margin: 20px;
 }
 .menu_bottom:hover{
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 	-webkit-tap-highlight-color: transparent;
 	text-decoration: none;
-	padding: 5px;
+	padding: 10px;
 	color: white;
 	background-color: black;
 }
@@ -64,12 +115,186 @@ menu{
 			display: block;
 			height: 30px;
 }
+/*dark market*/
+.category{
+	margin: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.block_download{
+	height: 175px;
+	width: 100px;
+
+	text-align: center;
+
+	background-color: lightgray;
+
+	padding: 10px;
+	margin: 10px;
+
+	border-radius: 10px;
+}
+
+.caption_download{
+	color: black;
+
+}
+
+.link_download:hover{
+	display: block;
+	color: lightgray;
+
+	background-color: dimgray;
+
+	padding: 5px;
+	margin: 5px;
+
+	border-radius: 50px;
+}
+
+.link_download{
+	display: block;
+	color: dimgray;
+
+	background-color: lightgray;
+
+	padding: 5px;
+	margin: 5px;
+
+	border-radius: 50px;
+	border-color: dimgray;
+	border-width: 2.5px;
+	border-style: solid;
+}
+
+.warning{
+	color: red;
+
+	font-size: 10px;
+
+	margin: 2.5px;
+}
+
+.opening{
+	border-radius: 10px;
+
+	flex-wrap: wrap;
+	justify-content: center;
+}
+/*banners & other content of general page*/
+
+	#begin_banner{
+		display: flex;
+
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+
+	.plusik{
+		display: flex;
+
+		background-color: lightgray;
+
+		padding: 20px;
+		margin: 5px;
+
+		width: 300px;
+		min-width: 200px;
+		height: 50px;
+
+		text-align: center;
+
+		color: rgba(0, 0, 0, 0.8);
+	}
+
+	.plusiki{
+		display: flex;
+
+		justify-content: center;
+
+		background-color: lightgray;
+
+		padding: 20px;
+		margin: 5px;
+
+		width: 30%;
+		min-width: 150px;
+		height: 50px;
+
+		color: black;
+	}
+
+	#pluses_block{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#poster{
+		background-color: lightgray;
+		display: flex;
+
+		text-align: right;
+
+		font-size: 40px;
+
+		color: black;
+
+		margin: 10px;
+	}
+
+/*banner list*/
+
+	#banner_list{
+		height: 300px;
+
+		overflow-x: auto;
+
+		background-color: rgba(255, 255, 255, 0.1);
+
+		margin: 10px;
+		padding: 10px;
+
+		display: flex;
+	}
+
+	.banner_no_scroll{
+		min-width: 200px;
+		height: 250px;
+		
+		background-color: lightgray;
+		
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: 12.5px;
+		margin-right: 12.5px;
+
+		transition-duration: 1s;
+		transition-property: height;
+
+		box-shadow: 5px 5px 20px black;
+	}
+
+	.banner_no_scroll:hover{
+		width: 200px;
+		height: 285px;
+
+		background-color: lightgray;
+
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: 12.5px;
+		margin-right: 12.5px;
+	}
+
 .news{
 			color: black;
     		width: 90%;
 			margin: 4%;
 			padding: 10px;
-			background-color: rgba(255, 255, 255, 0.7);
+			background-color: rgba(255, 255, 255, 0.8);
 			 
 }
 .active_menu{
@@ -102,12 +327,11 @@ menu{
 			 
 }
 .fi{
-	height: 15%;
-	width: 15%;
-	margin-left: 20%;
+	height: 50px;
+	width: 50px;
+	margin-left: 25px;
 }
 .vzlom{
-
 			background: rgba(255, 255, 255, 0.8);
 			margin: 50px;
 			padding: 5px;
@@ -184,7 +408,7 @@ menu{
 			border-radius: 50px;
 }
 .vzlomschool{
-			 
+			 width: 200px;
 			margin: 30px;
 			padding: 5px;
 }
@@ -203,6 +427,10 @@ menu{
 #m0id{
 	z-index: 12;
 }
+menu{
+	width: 100%;
+	display: block;
+}
 }
 		#block-around{
 			position: relative;
@@ -216,7 +444,7 @@ menu{
 			position: absolute;
 			height: 225px;
 			width: 450px;
-			margin-left: 20%;
+			margin-left: 22%;
 		}
 		#round{
 			position: absolute;
@@ -225,7 +453,7 @@ menu{
 			display: block;
     		margin-left: auto;
     		margin-right: auto;
-    		margin-left: 20%;
+    		margin-left: 22%;
 		}
 		#beauty{
 			position: absolute;
@@ -234,32 +462,20 @@ menu{
 			animation-duration: 10s;
 			height: 225px;
 			width: 450px;
-			margin-left: 20%;
+			margin-left: 22%;
 		}
 		#sign{
 			position: absolute;
 			height: 225px;
 			width: 450px;
-			margin-left: 20%;
+			margin-left: 22%;
 		}
-		@keyframes menuhid {
+		@keyframes size{
 			from{
-				height: 260px;
-				opacity: 1.0;
+				
 			}
 			to{
-				height: 0px;
-				opacity: 0.0;
-			}
-		}
-		@keyframes menuwat {
-			from{
-				height: 0px;
-				opacity: 0.0;
-			}
-			to{
-				height: 260px;
-				opacity: 1.0;
+				height: 285px;
 			}
 		}
 		@keyframes around {

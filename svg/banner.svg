@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="250">
+	<defs>
+		<radialGradient id="ballshadow" fx="82%" fy="5%" r="90%">
+			<stop offset="0%" stop-color="#FFFFFF"/>
+			<stop offset="100%" stop-color="black"/>
+		</radialGradient>
+	</defs>
+
+	<ellipse cx="85" cy="220" rx="90" ry="25" fill-opacity="0.5"/>
+
+	<!--Contour-->
+
+	<path d="M 25 150 
+			C 20 155, 25 230, 95 225 
+			C 95 225, 170 225, 170 150 
+			C 170 150, 170 90, 95 85 
+			C 95 85, 30 80, 24 155 Z" stroke="black" fill="url(#ballshadow)" stroke-width="5"/>
+
+	<!--Eyes-->
+
+	<path d="M 170 150
+			C 170 150, 150 145, 140 130
+			C 140 130, 125 105, 135, 95
+			C 135 95, 165 105, 170 150 " stroke="black" fill="lightgray" stroke-width="3"/>
+	<path d="M 125 150
+		C 125 150, 115 120, 95 120
+		C 95 120, 65 130, 85 170
+		C 85 170, 95 190, 120 180
+		C 120 180, 130 165,125 150" stroke="black" fill="lightgray" stroke-width="3"/>
+</svg>
